@@ -1,0 +1,9 @@
+﻿using Foundation;
+
+namespace MAPTEST;
+
+[Register("AppDelegate")]
+public class AppDelegate : MauiUIApplicationDelegate
+{
+	protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+}
